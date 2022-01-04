@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Card from './Card';
 import reportWebVitals from './reportWebVitals';
+import "tachyons";
+import { robots } from "./robots";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+      <Card id={robots[0].id} name={robots[0].name} slogan={robots[0].slogan} />
+      <Card id={robots[1].id} name={robots[1].name} slogan={robots[1].slogan}/>
+      <Card id={robots[2].id} name={robots[2].name} slogan={robots[2].slogan}/>
+      <Card id={robots[3].id} name={robots[3].name} slogan={robots[3].slogan} />
+  </div>
+  ,
   document.getElementById('root')
 );
 
