@@ -1,18 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './Card';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "tachyons";
-import { robots } from "./robots";
-
+// import { robots } from "./robots";
+// import Cardlist from "./Cardlist";
 ReactDOM.render(
-  <div>
-      <Card id={robots[0].id} name={robots[0].name} slogan={robots[0].slogan} />
-      <Card id={robots[1].id} name={robots[1].name} slogan={robots[1].slogan}/>
-      <Card id={robots[2].id} name={robots[2].name} slogan={robots[2].slogan}/>
-      <Card id={robots[3].id} name={robots[3].name} slogan={robots[3].slogan} />
-  </div>
+  // <Cardlist robots={robots}/>
+  <App />
   ,
   document.getElementById('root')
 );
