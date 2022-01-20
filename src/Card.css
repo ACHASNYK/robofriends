@@ -1,0 +1,7 @@
+#card {
+  background: linear-gradient(
+    40deg,
+    rgba(0, 255, 216, 0.01) 0%,
+    rgba(178, 43, 236, 0.58) 90%
+  );
+}

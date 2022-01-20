@@ -1,9 +1,11 @@
 import React from "react";
+// import "./Card.css";
 
 const Card = (props) => {
     return (
         
-        <div className = " tc bg-white dib br3 pa3 ma2 bg-animate hover-bg-light-green black grow bw2 shadow-5">
+        <div id="card" className=" tc bg-white dib br3 pa3 ma2 bg-animate hover-bg-white grow bw2 shadow-5">
+            
             <img alt="hui" src={`https://robohash.org/${props.name + props.username}?200x200`}/>
             <div>
                 <h2>{props.name} {props.username}</h2>

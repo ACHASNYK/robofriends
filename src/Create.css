@@ -1,0 +1,30 @@
+.Create {
+  max-width: 400;
+  margin: 0 auto;
+  text-align: center;
+}
+.Create label {
+  text-align: center;
+  display: block;
+}
+.Create h2 {
+  font-size: 20px;
+  color: #f1355d;
+  margin-bottom: 30px;
+}
+.Create input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.Create button {
+  background: #f1256d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
