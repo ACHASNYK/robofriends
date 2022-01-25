@@ -6,6 +6,7 @@ const Searchbox = ({searchange}) => {
             <input
                 // className = "pa3 ba b--grey bg-lightest-purple"
                 type="search"
+                value=
                 placeholder="Find DmyLeBot"
                 onChange={searchange}
             />

@@ -16,9 +16,9 @@ const App =() =>  {
     // constructor() {
         // super()
         // this.state = {
-    const [robot, setRobots] = useState(robots)
-    const [searchfield, onSearchChange] = useState("")
-    const [show, setState] = useState(false)
+    let [robot, setRobots] = useState(robots)
+    let [searchfield, onSearchChange] = useState("")
+    let [show, setState] = useState(false)
         
     
 
@@ -40,15 +40,15 @@ const App =() =>  {
         // console.log(filtredBots);
     }
 // render() {
-        const filtredBots = this.state.robots.filter(robots => {
-        return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+        const filtredBots = robot.filter(robot => {
+        return robot.name.toLowerCase().includes(searchfield.toLowerCase());
         })
     return (
         <div className="tc">
         <h1 className="f1">Dmy`LeBot</h1>
             
             <Searchbox searchange={onSearchChange} />
-            <button onClick={()=> setState( show = true)}>Створити нового DmyLeBota</button>
+            <button onClick={()=> setState( show = 1)}>Створити нового DmyLeBota</button>
             <Modal show = { show }/>
             
                
