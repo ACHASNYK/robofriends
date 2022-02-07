@@ -22,6 +22,11 @@ export const robots = [
         name: "ВьнДуз",
         username: "Дмілепович",
         slogan: "Вейп, Бльо!"
+    },
+    {
+        id: 5,
+        name: "+380",
+        username: "674454955",
+        slogan: "ашо"
     }
-    
 ]
