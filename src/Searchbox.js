@@ -1,20 +1,17 @@
 import React from "react";
-import { useState } from 'react';
-import { onSearchChange } from "./App";
-import { robots } from "./robots";
+// import { useState } from 'react';
+// import {Change} from "./App";
+// import { robots } from "./robots";
 
-const Searchbox = ({ robots }) => {
-  let [searchfield, onSearchChange] = useState("");
- 
-    
+const Searchbox = ({Change}) => { 
     return (
         <div>
             <input
-                 className = "pa3 ba b--grey bg-lightest-purple"
-                 type="search"
+                className="pa3 ba b--grey bg-lightest-purple"
+                type="search"
                 
-                 placeholder="Find DmyLeBot"
-                 onChange={onSearchChange}
+                placeholder="Find DmyLeBot"
+                onChange={Change}
              />
          </div>
      );
