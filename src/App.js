@@ -31,7 +31,7 @@ const App =() =>  {
         
      
      const Change = (event)=> {
-         console.log(event.target.value)
+        //  console.log(event.target.value)
          onSearchChange( event.target.value )
         // this.setState({ searchfield: event.target.value})
         // searchfield(event.target.value)

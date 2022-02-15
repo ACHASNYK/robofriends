@@ -1,7 +1,69 @@
-#card {
-  background: linear-gradient(
-    40deg,
-    rgba(0, 255, 216, 0.01) 0%,
-    rgba(178, 43, 236, 0.58) 90%
-  );
+.card {
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  border-radius: 7px;
+  padding: 1rem;
+  margin: 0.25rem;
+  border-width: 0.5rem;
+
+  transition: all ease-in-out 0.25s;
 }
+.card:hover {
+  box-shadow: 0.5px 10px 10px 3px rgb(91, 73, 245);
+  background-image: linear-gradient(
+    220deg,
+    rgba(240, 7, 221, 0.5),
+    rgba(70, 240, 7, 0.5)
+  );
+
+  transform: scale(1.025);
+  /* -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite; */
+  animation-name: Name;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#rob {
+  transition: all ease-in-out 0.4s;
+}
+#rob:hover {
+  transform: scale(1.1);
+}
+@keyframes Name {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* @-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  } */
+/* } */
+
+/* tc bg-white dib br3 pa3 ma2 bg-animate hover-bg-light-green grow bw2 shadow-5" */
